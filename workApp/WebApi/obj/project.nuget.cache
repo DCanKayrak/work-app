@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uJR0nvPj93xLtmY739ObHSMzP+gDduhr2nzJWICT0CFZKZDZShEZRL6iqaaOKM913O782oQd/DBnZ47vOzkCAg==",
+  "dgSpecHash": "uaaKL69K6kozD16NS+l67Pgtkf9+B4ydbiPkIixv/Y9SDjk7x1sWI+1TKN9m0LuKuUzKSUfNH9+xjIZiwOI0dw==",
   "success": true,
   "projectFilePath": "C:\\Users\\danya\\OneDrive\\Masaüstü\\Calismalarim\\workAppBe\\workApp\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [
@@ -59,6 +59,7 @@
     "C:\\Users\\danya\\.nuget\\packages\\microsoft.identitymodel.tokens\\7.4.0\\microsoft.identitymodel.tokens.7.4.0.nupkg.sha512",
     "C:\\Users\\danya\\.nuget\\packages\\microsoft.net.http.headers\\2.1.1\\microsoft.net.http.headers.2.1.1.nupkg.sha512",
     "C:\\Users\\danya\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\danya\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.4\\microsoft.visualstudio.azure.containers.tools.targets.1.19.4.nupkg.sha512",
     "C:\\Users\\danya\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
     "C:\\Users\\danya\\.nuget\\packages\\swashbuckle.aspnetcore\\6.5.0\\swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
     "C:\\Users\\danya\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.5.0\\swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",

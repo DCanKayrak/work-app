@@ -1,0 +1,33 @@
+version: '3.9'
+
+services:
+  webapp:
+    image: webapi
+    build: .
+    restart: always
+    ports:
+      - 8081:80
+    depends_on:
+      - postgres
+    networks:
+      - backend
+
+  postgres:
+    image: postgres
+    restart: always
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=question_app
+    ports:
+      - '5432:5432'
+    volumes:
+      - local_pgdata:/var/lib/postgresql/data
+    networks:
+      - backend
+
+networks:
+  backend:
+
+volumes:
+  local_pgdata:
