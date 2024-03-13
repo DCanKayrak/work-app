@@ -104,11 +104,9 @@ C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Deb
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\Business.dll
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\Core.dll
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\DataAccess.dll
-C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\Entities.dll
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\Business.pdb
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\Core.pdb
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\DataAccess.pdb
-C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\Entities.pdb
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\obj\Debug\net7.0\WebApi.csproj.AssemblyReference.cache
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\obj\Debug\net7.0\WebApi.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\obj\Debug\net7.0\WebApi.AssemblyInfoInputs.cache
@@ -130,3 +128,10 @@ C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\obj\Deb
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\obj\Debug\net7.0\WebApi.pdb
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\obj\Debug\net7.0\WebApi.genruntimeconfig.cache
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\obj\Debug\net7.0\ref\WebApi.dll
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\Entities.dll
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\Entities.pdb
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\publish\web.config
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\publish\appsettings.Development.json
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\publish\appsettings.json
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\publish\WebApi.deps.json
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\publish\WebApi.runtimeconfig.json
