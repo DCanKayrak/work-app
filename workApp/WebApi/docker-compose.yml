@@ -17,10 +17,10 @@ services:
     restart: always
     environment:
       - POSTGRES_USER=postgres
-      - POSTGRES_PASSWORD=postgres
-      - POSTGRES_DB=question_app
+      - POSTGRES_PASSWORD=workApp
+      - POSTGRES_DB=work_app
     ports:
-      - '5432:5432'
+      - '5433:5432'
     volumes:
       - local_pgdata:/var/lib/postgresql/data
     networks:

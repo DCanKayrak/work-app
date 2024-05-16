@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ecBAc5IpAmJ40zQ9aQPWWQlcTz+GbKDbzy3rChZ047giHGC5IF1vhJJ7aZhNY8Io/wQ8nnw8Q858ZWuuh53NFA==",
+  "dgSpecHash": "D3Ia4zzoppK6fQMj2zDKpNuoc2a6ndGcdcC7HiQJ7/Eq4Trf1AXDiWl78+0BJAegNXpdzwoI0vXcARLvBHaUWQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\danya\\OneDrive\\Masaüstü\\Calismalarim\\workAppBe\\workApp\\Core\\Core.csproj",
   "expectedPackageFiles": [
@@ -85,5 +85,16 @@
     "C:\\Users\\danya\\.nuget\\packages\\system.xml.readerwriter\\4.0.11\\system.xml.readerwriter.4.0.11.nupkg.sha512",
     "C:\\Users\\danya\\.nuget\\packages\\system.xml.xdocument\\4.0.11\\system.xml.xdocument.4.0.11.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1902",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.IdentityModel.Tokens.Jwt' 7.0.3 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-59j7-ghrg-fj52",
+      "libraryId": "System.IdentityModel.Tokens.Jwt",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

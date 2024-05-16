@@ -7,11 +7,11 @@ using System.Threading.Tasks;
 
 namespace Business.Abstract
 {
-    public interface ICrudService<TEntity, TDto> : IService
+    public interface ICrudService<TEntity> : IService
     {
-        IDataResult<List<TDto>> GetAll();
-        IDataResult<TDto> Get(int id);
-        IDataResult<TDto> Create(TEntity entity);
+        IDataResult<List<TEntity>> GetAll();
+        IDataResult<TEntity> Get(int id);
+        IDataResult<TEntity> Create(TEntity entity);
         IResult Update(TEntity entity);
         IResult Delete(int id);
     }

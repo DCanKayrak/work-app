@@ -1,4 +1,6 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Business.Abstract;
+using Entities.Concrete.Dto.Requests.Auth;
+using Microsoft.AspNetCore.Mvc;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,36 +10,47 @@ namespace WebApi.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        // GET: api/<ValuesController>
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private IAuthService _authService;
+        public AuthController(IAuthService authService)
         {
-            return new string[] { "value1", "value2" };
+            _authService = authService;
         }
-
-        // GET api/<ValuesController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [HttpPost("Register")]
+        public IActionResult Register(RegisterRequestDto req)
         {
-            return "value";
+            var userExist = _authService.UserExists(req.Email);
+
+            if (!userExist.Success)
+            {
+                return BadRequest(userExist.Message);
+            }
+            var registerUser = _authService.Register(req, req.Password);
+            var result = _authService.CreateAccessToken(registerUser.Data);
+            if (!registerUser.Success)
+            {
+                return BadRequest(registerUser.Message);
+            }
+            return Ok(result.Data);
+
         }
-
-        // POST api/<ValuesController>
-        [HttpPost]
-        public void Post([FromBody] string value)
+        [HttpPost("Login")]
+        public IActionResult Login(LoginRequestDto req)
         {
-        }
+            var userToLogin = _authService.Login(req);
 
-        // PUT api/<ValuesController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
+            if (!userToLogin.Success)
+            {
+                return BadRequest(userToLogin);
+            }
+            var result = _authService.CreateAccessToken(userToLogin.Data);
 
-        // DELETE api/<ValuesController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            if (result.Success)
+            {
+                return Ok(result);
+            }
+
+            return BadRequest(result);
+
         }
     }
 }

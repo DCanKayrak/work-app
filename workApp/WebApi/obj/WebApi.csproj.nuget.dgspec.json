@@ -30,6 +30,12 @@
             "projectReferences": {
               "C:\\Users\\danya\\OneDrive\\Masaüstü\\Calismalarim\\workAppBe\\workApp\\Core\\Core.csproj": {
                 "projectPath": "C:\\Users\\danya\\OneDrive\\Masaüstü\\Calismalarim\\workAppBe\\workApp\\Core\\Core.csproj"
+              },
+              "C:\\Users\\danya\\OneDrive\\Masaüstü\\Calismalarim\\workAppBe\\workApp\\DataAccess\\DataAccess.csproj": {
+                "projectPath": "C:\\Users\\danya\\OneDrive\\Masaüstü\\Calismalarim\\workAppBe\\workApp\\DataAccess\\DataAccess.csproj"
+              },
+              "C:\\Users\\danya\\OneDrive\\Masaüstü\\Calismalarim\\workAppBe\\workApp\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\danya\\OneDrive\\Masaüstü\\Calismalarim\\workAppBe\\workApp\\Entities\\Entities.csproj"
               }
             }
           }
@@ -85,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -194,7 +200,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -221,7 +227,14 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\danya\\OneDrive\\Masaüstü\\Calismalarim\\workAppBe\\workApp\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\danya\\OneDrive\\Masaüstü\\Calismalarim\\workAppBe\\workApp\\Core\\Core.csproj"
+              },
+              "C:\\Users\\danya\\OneDrive\\Masaüstü\\Calismalarim\\workAppBe\\workApp\\Entities\\Entities.csproj": {
+                "projectPath": "C:\\Users\\danya\\OneDrive\\Masaüstü\\Calismalarim\\workAppBe\\workApp\\Entities\\Entities.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -233,6 +246,32 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.19, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.19, )"
+            },
+            "Npgsql": {
+              "target": "Package",
+              "version": "[7.0.7, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.18, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -249,7 +288,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -276,7 +315,11 @@
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\danya\\OneDrive\\Masaüstü\\Calismalarim\\workAppBe\\workApp\\Core\\Core.csproj": {
+                "projectPath": "C:\\Users\\danya\\OneDrive\\Masaüstü\\Calismalarim\\workAppBe\\workApp\\Core\\Core.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -304,7 +347,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     },
@@ -403,7 +446,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
         }
       }
     }

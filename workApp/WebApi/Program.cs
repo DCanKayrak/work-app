@@ -57,8 +57,8 @@ builder.Services.AddSwaggerGen(c =>
 {
     c.SwaggerDoc("v1", new OpenApiInfo { Title = "Your API Name", Version = "v1" });
 
-    // Swagger UI'da "Authorize" butonu görüntülenmesi ve
-    // "Bearer" tipinde bir token kullanýlacaðýný belirtiyoruz.
+    // Swagger UI'da "Authorize" butonu g�r�nt�lenmesi ve
+    // "Bearer" tipinde bir token kullan�laca��n� belirtiyoruz.
     c.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
     {
         Description = "JWT Authorization header using the Bearer scheme",
@@ -68,7 +68,7 @@ builder.Services.AddSwaggerGen(c =>
         Scheme = "Bearer"
     });
 
-    // Swagger UI'da "Authorize" butonuna týklandýðýnda istenilen kapsamýn belirlenmesi.
+    // Swagger UI'da "Authorize" butonuna t�kland���nda istenilen kapsam�n belirlenmesi.
     c.AddSecurityRequirement(new OpenApiSecurityRequirement
             {
                 {
@@ -85,7 +85,7 @@ builder.Services.AddSwaggerGen(c =>
             });
 });
 
-// Diðer servis konfigürasyonlar
+        // Di�er servis konfig�rasyonlar
 
 
 builder.Services.AddCors(options =>
@@ -116,7 +116,7 @@ if (app.Environment.IsDevelopment())
 app.UseCors();
 app.UseHttpsRedirection();
 
-app.UseMiddleware<ExceptionHandlingMiddleware>();
+//app.UseMiddleware<ExceptionHandlingMiddleware>();
 
 app.UseAuthentication();
 app.UseAuthorization();

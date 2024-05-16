@@ -22,3 +22,4 @@ C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Core\obj\Debug
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Core\obj\Debug\net7.0\refint\Core.dll
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Core\obj\Debug\net7.0\Core.pdb
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Core\obj\Debug\net7.0\ref\Core.dll
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Core\obj\Debug\net7.0\Core.sourcelink.json

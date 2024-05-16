@@ -1,0 +1,306 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{66A03F34-7F70-4067-A061-9C625E5BD9F2}|Business\\Business.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\business\\concrete\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A03F34-7F70-4067-A061-9C625E5BD9F2}|Business\\Business.csproj|solutionrelative:business\\concrete\\authmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A03F34-7F70-4067-A061-9C625E5BD9F2}|Business\\Business.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\business\\concrete\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A03F34-7F70-4067-A061-9C625E5BD9F2}|Business\\Business.csproj|solutionrelative:business\\concrete\\usermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A03F34-7F70-4067-A061-9C625E5BD9F2}|Business\\Business.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\business\\concrete\\pomodoromanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A03F34-7F70-4067-A061-9C625E5BD9F2}|Business\\Business.csproj|solutionrelative:business\\concrete\\pomodoromanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A03F34-7F70-4067-A061-9C625E5BD9F2}|Business\\Business.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\business\\abstract\\icrudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A03F34-7F70-4067-A061-9C625E5BD9F2}|Business\\Business.csproj|solutionrelative:business\\abstract\\icrudservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BBBBF07-8EED-419B-B17A-A2E01BD22795}|DataAccess\\DataAccess.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\dataaccess\\concrete\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BBBBF07-8EED-419B-B17A-A2E01BD22795}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efentityrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BBBBF07-8EED-419B-B17A-A2E01BD22795}|DataAccess\\DataAccess.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\dataaccess\\concrete\\entityframework\\efuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BBBBF07-8EED-419B-B17A-A2E01BD22795}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\concrete\\entityframework\\efuserdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BBBBF07-8EED-419B-B17A-A2E01BD22795}|DataAccess\\DataAccess.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\dataaccess\\abstract\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BBBBF07-8EED-419B-B17A-A2E01BD22795}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\ientityrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6BBBBF07-8EED-419B-B17A-A2E01BD22795}|DataAccess\\DataAccess.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\dataaccess\\abstract\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6BBBBF07-8EED-419B-B17A-A2E01BD22795}|DataAccess\\DataAccess.csproj|solutionrelative:dataaccess\\abstract\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A03F34-7F70-4067-A061-9C625E5BD9F2}|Business\\Business.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\business\\abstract\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A03F34-7F70-4067-A061-9C625E5BD9F2}|Business\\Business.csproj|solutionrelative:business\\abstract\\itaskservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A03F34-7F70-4067-A061-9C625E5BD9F2}|Business\\Business.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\business\\abstract\\ipomodoroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A03F34-7F70-4067-A061-9C625E5BD9F2}|Business\\Business.csproj|solutionrelative:business\\abstract\\ipomodoroservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9878805A-3D86-4188-867F-334F4F78D224}|WebApi\\WebApi.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9878805A-3D86-4188-867F-334F4F78D224}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D525254-4C85-444C-A329-DCB23ADB3359}|Core\\Core.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\core\\entity\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D525254-4C85-444C-A329-DCB23ADB3359}|Core\\Core.csproj|solutionrelative:core\\entity\\concrete\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9878805A-3D86-4188-867F-334F4F78D224}|WebApi\\WebApi.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\webapi\\controllers\\pomodorocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9878805A-3D86-4188-867F-334F4F78D224}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\pomodorocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66A03F34-7F70-4067-A061-9C625E5BD9F2}|Business\\Business.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\business\\abstract\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66A03F34-7F70-4067-A061-9C625E5BD9F2}|Business\\Business.csproj|solutionrelative:business\\abstract\\iservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1DA8A4-3E17-4412-AC2C-88B06B7A3259}|Entities\\Entities.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\entities\\concrete\\dto\\responses\\task\\taskcollectionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1DA8A4-3E17-4412-AC2C-88B06B7A3259}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\dto\\responses\\task\\taskcollectionresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1DA8A4-3E17-4412-AC2C-88B06B7A3259}|Entities\\Entities.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\entities\\concrete\\dto\\requests\\createpomodororequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1DA8A4-3E17-4412-AC2C-88B06B7A3259}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\dto\\requests\\createpomodororequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB1DA8A4-3E17-4412-AC2C-88B06B7A3259}|Entities\\Entities.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\entities\\concrete\\dto\\responses\\task\\taskresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FB1DA8A4-3E17-4412-AC2C-88B06B7A3259}|Entities\\Entities.csproj|solutionrelative:entities\\concrete\\dto\\responses\\task\\taskresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PomodoroManager.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Concrete\\PomodoroManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\PomodoroManager.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Concrete\\PomodoroManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\PomodoroManager.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T20:01:00.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICrudService.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Abstract\\ICrudService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\ICrudService.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Abstract\\ICrudService.cs",
+              "RelativeToolTip": "Business\\Abstract\\ICrudService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T20:00:49.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EfEntityRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\DataAccess\\Concrete\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\DataAccess\\Concrete\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EfEntityRepositoryBase.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T20:00:35.81Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EfUserDal.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\DataAccess\\Concrete\\EntityFramework\\EfUserDal.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfUserDal.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\DataAccess\\Concrete\\EntityFramework\\EfUserDal.cs",
+              "RelativeToolTip": "DataAccess\\Concrete\\EntityFramework\\EfUserDal.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T20:00:31.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\DataAccess\\Abstract\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\DataAccess\\Abstract\\IUserRepository.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T20:00:23.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthManager.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Concrete\\AuthManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\AuthManager.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Concrete\\AuthManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\AuthManager.cs",
+              "ViewState": "AQIAAD0AAAAAAAAAAAAqwEoAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T19:55:56.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserManager.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Concrete\\UserManager.cs",
+              "RelativeDocumentMoniker": "Business\\Concrete\\UserManager.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Concrete\\UserManager.cs",
+              "RelativeToolTip": "Business\\Concrete\\UserManager.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAA7wB0AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T20:01:05.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PomodoroController.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\WebApi\\Controllers\\PomodoroController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\PomodoroController.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\WebApi\\Controllers\\PomodoroController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\PomodoroController.cs",
+              "ViewState": "AQIAACkAAAAAAAAAAAAgwDYAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:17:35.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\WebApi\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\WebApi\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\AuthController.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAcwDcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T19:52:05.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "IService.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Abstract\\IService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IService.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Abstract\\IService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T19:39:04.24Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IPomodoroService.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Abstract\\IPomodoroService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\IPomodoroService.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Abstract\\IPomodoroService.cs",
+              "RelativeToolTip": "Business\\Abstract\\IPomodoroService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:10:20.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IEntityRepository.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\DataAccess\\Abstract\\IEntityRepository.cs",
+              "RelativeDocumentMoniker": "DataAccess\\Abstract\\IEntityRepository.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\DataAccess\\Abstract\\IEntityRepository.cs",
+              "RelativeToolTip": "DataAccess\\Abstract\\IEntityRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:06:59.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Core\\Entity\\Concrete\\User.cs",
+              "RelativeDocumentMoniker": "Core\\Entity\\Concrete\\User.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Core\\Entity\\Concrete\\User.cs",
+              "RelativeToolTip": "Core\\Entity\\Concrete\\User.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA4AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-16T19:55:11.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ITaskService.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Abstract\\ITaskService.cs",
+              "RelativeDocumentMoniker": "Business\\Abstract\\ITaskService.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Abstract\\ITaskService.cs",
+              "RelativeToolTip": "Business\\Abstract\\ITaskService.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAUwA0AAABfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:07:32.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "TaskCollectionResponse.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Entities\\Concrete\\Dto\\Responses\\Task\\TaskCollectionResponse.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Dto\\Responses\\Task\\TaskCollectionResponse.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Entities\\Concrete\\Dto\\Responses\\Task\\TaskCollectionResponse.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Dto\\Responses\\Task\\TaskCollectionResponse.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:09:45.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CreatePomodoroRequest.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Entities\\Concrete\\Dto\\Requests\\CreatePomodoroRequest.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Dto\\Requests\\CreatePomodoroRequest.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Entities\\Concrete\\Dto\\Requests\\CreatePomodoroRequest.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Dto\\Requests\\CreatePomodoroRequest.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:14:05.916Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "TaskResponse.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Entities\\Concrete\\Dto\\Responses\\Task\\TaskResponse.cs",
+              "RelativeDocumentMoniker": "Entities\\Concrete\\Dto\\Responses\\Task\\TaskResponse.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Entities\\Concrete\\Dto\\Responses\\Task\\TaskResponse.cs",
+              "RelativeToolTip": "Entities\\Concrete\\Dto\\Responses\\Task\\TaskResponse.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAA4AAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T20:09:07.777Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

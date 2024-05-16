@@ -20,3 +20,8 @@ C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Entities\obj\D
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Entities\obj\Debug\net7.0\refint\Entities.dll
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Entities\obj\Debug\net7.0\Entities.pdb
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Entities\obj\Debug\net7.0\ref\Entities.dll
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Entities\bin\Debug\net7.0\Core.dll
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Entities\bin\Debug\net7.0\Core.pdb
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Entities\obj\Debug\net7.0\Entities.sourcelink.json
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Entities\obj\Debug\net7.0\Entities.csproj.Up2Date

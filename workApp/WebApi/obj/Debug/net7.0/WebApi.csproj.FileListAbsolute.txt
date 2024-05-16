@@ -122,7 +122,6 @@ C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\obj\Deb
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\obj\Debug\net7.0\scopedcss\bundle\WebApi.styles.css
-C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\obj\Debug\net7.0\WebApi.csproj.CopyComplete
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\obj\Debug\net7.0\WebApi.dll
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\obj\Debug\net7.0\refint\WebApi.dll
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\obj\Debug\net7.0\WebApi.pdb
@@ -135,3 +134,7 @@ C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Deb
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\publish\appsettings.json
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\publish\WebApi.deps.json
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\publish\WebApi.runtimeconfig.json
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\obj\Debug\net7.0\WebApi.sourcelink.json
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\obj\Debug\net7.0\WebApi.csproj.Up2Date
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\Npgsql.dll
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

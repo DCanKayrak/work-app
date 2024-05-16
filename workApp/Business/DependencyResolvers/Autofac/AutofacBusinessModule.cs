@@ -9,6 +9,12 @@ using System.Threading.Tasks;
 using System.Reflection;
 using Module = Autofac.Module;
 using Core.Utilities.Interceptors;
+using Business.Concrete;
+using Business.Abstract;
+using Core.Utilities.Security.JWT;
+using DataAccess.Concrete;
+using DataAccess.Abstract;
+using DataAccess.Concrete.EntityFramework;
 
 namespace Business.DependencyResolvers.Autofac
 {
@@ -16,7 +22,20 @@ namespace Business.DependencyResolvers.Autofac
     {
         protected override void Load(ContainerBuilder builder)
         {
-            // Resolve the dependencies here.
+            // Services
+            builder.RegisterType<PomodoroManager>().As<IPomodoroService>();
+            builder.RegisterType<UserManager>().As<IUserService>();
+            builder.RegisterType<TaskManager>().As<ITaskService>();
+            builder.RegisterType<JwtHelper>().As<ITokenHelper>();
+            builder.RegisterType<OperationClaimManager>().As<IRoleService>();
+            builder.RegisterType<UserOperationClaimManager>().As<IUserOperationClaimService>();
+
+            // Repositories
+
+            builder.RegisterType<EfUserDal>().As<IUserRepository>();
+            builder.RegisterType<EfPomodoroDal>().As<IPomodoroRepository>();
+            builder.RegisterType<EfOperationClaimDal>().As<IOperationClaimRepository>();
+            builder.RegisterType<EfUserOperationClaimDal>().As<IUserOperationClaimRepository>();
 
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
