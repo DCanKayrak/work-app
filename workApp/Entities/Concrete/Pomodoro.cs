@@ -7,11 +7,9 @@ using System.Threading.Tasks;
 
 namespace Entities.Concrete
 {
-    public class Pomodoro : IEntity
+    public class Pomodoro : BaseEntity
     {
-        public Guid Id { get; set; }
         public int UserId { get; set; }
         public byte Duration { get; set; }
-        public DateTime Creation_Date { get; set; }
     }
 }

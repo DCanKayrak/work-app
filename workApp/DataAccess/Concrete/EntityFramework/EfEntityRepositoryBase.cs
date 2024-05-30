@@ -37,7 +37,7 @@ namespace DataAccess.Concrete.EntityFramework
             this.readingExceptionMessage = readingExceptionMessage;
             this.deletingExceptionMessage = deletingExceptionMessage;
         }
-        public void Create(TEntity entity)
+        public TEntity Create(TEntity entity)
         {
             using (TContext context = new TContext())
             {
@@ -46,6 +46,7 @@ namespace DataAccess.Concrete.EntityFramework
                     var ent = context.Entry(entity);
                     ent.State = EntityState.Added;
                     context.SaveChanges();
+                    return entity;
                 }
                 catch (Exception ex)
                 {
@@ -94,7 +95,7 @@ namespace DataAccess.Concrete.EntityFramework
             }
         }
 
-        public void Update(TEntity entity)
+        public TEntity Update(TEntity entity)
         {
             using (TContext context = new TContext())
             {
@@ -103,6 +104,7 @@ namespace DataAccess.Concrete.EntityFramework
                     var ent = context.Entry(entity);
                     ent.State = EntityState.Modified;
                     context.SaveChanges();
+                    return entity;
                 }
                 catch (Exception e)
                 {

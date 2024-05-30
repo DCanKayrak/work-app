@@ -11,6 +11,7 @@ namespace Business.Abstract
 {
     public interface IPomodoroService : ICrudService<Pomodoro>
     {
-        public IDataResult<List<PomodoroResponse>> GetAllWithUserAndDate(int userId, DateTime date);
+        public IDataResult<List<Pomodoro>> GetAllWithUserAndDate(int userId, DateTime date);
+        IDataResult<List<Pomodoro>> GetAllBetweenTwoDates(DateTime startDate, DateTime endDate);
     }
 }

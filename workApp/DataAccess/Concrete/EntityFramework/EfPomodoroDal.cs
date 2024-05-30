@@ -1,4 +1,6 @@
 ﻿using DataAccess.Abstract;
+using DataAccess.Concrete.EntityFramework;
+using DataAccess.Concrete.EntityFramework.Context;
 using Entities.Concrete;
 using System;
 using System.Collections.Generic;
@@ -9,31 +11,8 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Concrete
 {
-    public class EfPomodoroDal : IPomodoroRepository
+    public class EfPomodoroDal : EfEntityRepositoryBase<Pomodoro,EfDbContext> ,IPomodoroRepository
     {
-        public void Create(Pomodoro entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Delete(Pomodoro entity)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Pomodoro Get(Expression<Func<Pomodoro, bool>> filter)
-        {
-            throw new NotImplementedException();
-        }
-
-        public List<Pomodoro> GetAll(Expression<Func<Pomodoro, bool>> filter)
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Update(Pomodoro entity)
-        {
-            throw new NotImplementedException();
-        }
+        
     }
 }

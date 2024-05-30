@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 using System.Security.Claims;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,10 +25,12 @@ namespace Business.Concrete
 
         public UserManager
             (
-            IUserRepository userRepository
+            IUserRepository userRepository,
+            IHttpContextAccessor httpContextAccessor
             )
         {
             _userRepository = userRepository;
+            _httpContextAccessor = httpContextAccessor;
         }
         public IDataResult<User> Create(User entity)
         {
@@ -46,9 +49,9 @@ namespace Business.Concrete
             return new SuccessDataResult<User>(_userRepository.Get(u => u.Id == id));
         }
 
-        public IDataResult<List<User>> GetAll()
+        public IDataResult<List<User>> GetAll(Expression<Func<User, bool>> filter)
         {
-            return new SuccessDataResult<List<User>>(_userRepository.GetAll(null));
+            return new SuccessDataResult<List<User>>(_userRepository.GetAll(filter));
         }
         public User GetByMail(string email)
         {

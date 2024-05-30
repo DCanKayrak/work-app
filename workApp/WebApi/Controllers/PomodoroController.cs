@@ -1,14 +1,9 @@
 ﻿using Business.Abstract;
 using Business.DependencyResolvers.Mapper;
 using Core.Utilities.Results.Abstract;
-using Core.Utilities.Results.Concrete;
-using DataAccess.Abstract;
 using Entities.Concrete;
-using Entities.Concrete.Dto.Requests;
-using Entities.Concrete.Dto.Responses;
+using Entities.Concrete.Dto.Requests.Pomodoro;
 using Microsoft.AspNetCore.Mvc;
-
-// For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace WebApi.Controllers
 {
@@ -29,13 +24,19 @@ namespace WebApi.Controllers
         [HttpGet]
         public IActionResult GetAll()
         {
-            return HandleResponse(_pomodoroService.GetAll());
+            return HandleResponse(_pomodoroService.GetAll(null));
         }
 
         [HttpGet("/users/{userId}/pomodoros/{date}")]
         public IActionResult GetAllWithUserAndDate(int userId, DateTime date)
         {
             return HandleResponse(_pomodoroService.GetAllWithUserAndDate(userId,date));
+        }
+        
+        [HttpGet("/pomodoros/from/{startDate}/to/{endDate}")]
+        public IActionResult GetAllWithUserAndDate(DateTime startDate, DateTime endDate)
+        {
+            return HandleResponse(_pomodoroService.GetAllBetweenTwoDates(startDate,endDate));
         }
 
         [HttpGet("{id}")]

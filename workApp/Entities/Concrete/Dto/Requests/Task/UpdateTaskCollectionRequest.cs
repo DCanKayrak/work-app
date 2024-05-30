@@ -9,8 +9,6 @@ namespace Entities.Concrete.Dto.Requests.Task
 {
     public class UpdateTaskCollectionRequest : IDto
     {
-        public Guid Id { get; set; }
-        public int UserId { get; set; }
         public string Title { get; set; }
         public DateTime Creation_Date { get; set; }
     }

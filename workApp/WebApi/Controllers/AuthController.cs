@@ -30,7 +30,7 @@ namespace WebApi.Controllers
             {
                 return BadRequest(registerUser.Message);
             }
-            return Ok(result.Data);
+            return Ok(result);
 
         }
         [HttpPost("Login")]

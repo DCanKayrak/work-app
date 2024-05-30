@@ -3,16 +3,15 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.Json.Serialization;
 using System.Threading.Tasks;
 
 namespace Entities.Concrete
 {
-    public class TaskItem : IEntity
+    public class TaskItem : BaseEntity, IEntity
     {
-        public Guid Id { get; set; }
-        public Guid CollectionId { get; set; }
+        public int CollectionId { get; set; }
         public string Name { get; set; }
         public bool IsCompleted { get; set; }
-        public DateTime Creation_Date { get; set; }
     }
 }

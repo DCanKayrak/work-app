@@ -1,4 +1,5 @@
-﻿using Business.Abstract;
+﻿using System.Linq.Expressions;
+using Business.Abstract;
 using Core.Entity.Concrete;
 using Core.Utilities.Results.Abstract;
 using Core.Utilities.Results.Concrete;
@@ -30,12 +31,12 @@ public class UserOperationClaimManager : IUserOperationClaimService
 
     public IDataResult<UserOperationClaim> Get(int id)
     {
-        return new SuccessDataResult<UserOperationClaim>(_userOperationClaimRepository.Get(o=>o.Id == id));
+        return new SuccessDataResult<UserOperationClaim>(_userOperationClaimRepository.Get(o => o.Id == id));
     }
 
-    public IDataResult<List<UserOperationClaim>> GetAll()
+    public IDataResult<List<UserOperationClaim>> GetAll(Expression<Func<UserOperationClaim, bool>> filter)
     {
-        return new SuccessDataResult<List<UserOperationClaim>>(_userOperationClaimRepository.GetAll(null));
+        return new SuccessDataResult<List<UserOperationClaim>>(_userOperationClaimRepository.GetAll(filter));
     }
 
     public IResult Update(UserOperationClaim entity)

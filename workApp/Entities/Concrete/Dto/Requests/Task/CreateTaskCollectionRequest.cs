@@ -9,9 +9,7 @@ namespace Entities.Concrete.Dto.Requests.Task
 {
     public class CreateTaskCollectionRequest : IDto
     {
-        public Guid Id { get; set; }
-        public int UserId { get; set; }
         public string Title { get; set; }
-        public DateTime Creation_Date { get; set; } = DateTime.Now;
+        public string Description { get; set; }
     }
 }

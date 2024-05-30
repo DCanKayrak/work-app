@@ -24,7 +24,6 @@ namespace Business.DependencyResolvers.Mapper
             var config = new MapperConfiguration(cfg =>
             {
                 cfg.CreateMap<TSource, TDestination>();
-                // Diğer eşleştirmeleri buraya ekleyebilirsiniz.
             });
 
             return config.CreateMapper();

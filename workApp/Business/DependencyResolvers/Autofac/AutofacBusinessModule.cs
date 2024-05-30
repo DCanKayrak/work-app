@@ -3,6 +3,7 @@ using Autofac.Extras.DynamicProxy;
 using Castle.DynamicProxy;
 using System;
 using System.Collections.Generic;
+using System.Data.Common;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -15,6 +16,8 @@ using Core.Utilities.Security.JWT;
 using DataAccess.Concrete;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
+using DataAccess.Concrete.EntityFramework.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace Business.DependencyResolvers.Autofac
 {
@@ -29,6 +32,8 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<JwtHelper>().As<ITokenHelper>();
             builder.RegisterType<OperationClaimManager>().As<IRoleService>();
             builder.RegisterType<UserOperationClaimManager>().As<IUserOperationClaimService>();
+            builder.RegisterType<TaskCollectionManager>().As<ITaskCollectionService>();
+            builder.RegisterType<FollowerManager>().As<IFollowerService>();
 
             // Repositories
 
@@ -36,7 +41,13 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<EfPomodoroDal>().As<IPomodoroRepository>();
             builder.RegisterType<EfOperationClaimDal>().As<IOperationClaimRepository>();
             builder.RegisterType<EfUserOperationClaimDal>().As<IUserOperationClaimRepository>();
-
+            builder.RegisterType<EfTaskCollectionDal>().As<ITaskCollectionRepository>();
+            builder.RegisterType<EfTaskDal>().As<ITaskRepository>();
+            builder.RegisterType<EfFollowerDal>().As<IFollowerRepository>();
+            
+            // Others
+            builder.RegisterType<EfDbContext>().As<EfDbContext>();
+            
             var assembly = System.Reflection.Assembly.GetExecutingAssembly();
 
             builder.RegisterAssemblyTypes(assembly).AsImplementedInterfaces()
