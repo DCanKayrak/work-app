@@ -122,6 +122,64 @@ namespace DataAccess.Migrations
                     b.ToTable("Followers");
                 });
 
+            modelBuilder.Entity("Entities.Concrete.League", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("Created_At")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<double>("Goal")
+                        .HasColumnType("double precision");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<DateTime>("Updated_At")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Leagues");
+                });
+
+            modelBuilder.Entity("Entities.Concrete.Notification", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("Created_At")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<bool>("IsRead")
+                        .HasColumnType("boolean");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<int>("NotificationType")
+                        .HasColumnType("integer");
+
+                    b.Property<DateTime>("Updated_At")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Notifications");
+                });
+
             modelBuilder.Entity("Entities.Concrete.Pomodoro", b =>
                 {
                     b.Property<int>("Id")
@@ -209,6 +267,34 @@ namespace DataAccess.Migrations
                     b.HasIndex("TaskCollectionId");
 
                     b.ToTable("Tasks");
+                });
+
+            modelBuilder.Entity("Entities.Concrete.UserRating", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<DateTime>("Created_At")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("LeagueId")
+                        .HasColumnType("integer");
+
+                    b.Property<double>("Score")
+                        .HasColumnType("double precision");
+
+                    b.Property<DateTime>("Updated_At")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("UserRatings");
                 });
 
             modelBuilder.Entity("Entities.Concrete.TaskItem", b =>

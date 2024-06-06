@@ -17,6 +17,7 @@ using DataAccess.Concrete;
 using DataAccess.Abstract;
 using DataAccess.Concrete.EntityFramework;
 using DataAccess.Concrete.EntityFramework.Context;
+using Entities.Concrete;
 using Microsoft.EntityFrameworkCore;
 
 namespace Business.DependencyResolvers.Autofac
@@ -34,6 +35,9 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<UserOperationClaimManager>().As<IUserOperationClaimService>();
             builder.RegisterType<TaskCollectionManager>().As<ITaskCollectionService>();
             builder.RegisterType<FollowerManager>().As<IFollowerService>();
+            builder.RegisterType<NotificationManager>().As<INotificationService>();
+            builder.RegisterType<LeagueManager>().As<ILeagueService>();
+            builder.RegisterType<UserRatingManager>().As<IUserRatingService>();
 
             // Repositories
 
@@ -44,6 +48,9 @@ namespace Business.DependencyResolvers.Autofac
             builder.RegisterType<EfTaskCollectionDal>().As<ITaskCollectionRepository>();
             builder.RegisterType<EfTaskDal>().As<ITaskRepository>();
             builder.RegisterType<EfFollowerDal>().As<IFollowerRepository>();
+            builder.RegisterType<EfNotificationDal>().As<INotificationRepository>();
+            builder.RegisterType<EfLeagueDal>().As<ILeagueRepository>();
+            builder.RegisterType<EfUserRatingDal>().As<IUserRatingRepository>();
             
             // Others
             builder.RegisterType<EfDbContext>().As<EfDbContext>();

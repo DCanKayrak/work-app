@@ -27,13 +27,13 @@ namespace WebApi.Controllers
             return HandleResponse(_pomodoroService.GetAll(null));
         }
 
-        [HttpGet("/users/{userId}/pomodoros/{date}")]
+        [HttpGet("users/{userId}/pomodoros/{date}")]
         public IActionResult GetAllWithUserAndDate(int userId, DateTime date)
         {
             return HandleResponse(_pomodoroService.GetAllWithUserAndDate(userId,date));
         }
         
-        [HttpGet("/pomodoros/from/{startDate}/to/{endDate}")]
+        [HttpGet("pomodoros/from/{startDate}/to/{endDate}")]
         public IActionResult GetAllWithUserAndDate(DateTime startDate, DateTime endDate)
         {
             return HandleResponse(_pomodoroService.GetAllBetweenTwoDates(startDate,endDate));

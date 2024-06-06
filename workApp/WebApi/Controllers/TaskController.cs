@@ -49,7 +49,7 @@ namespace WebApi.Controllers
             return HandleResponse(_taskService.Delete(id));
         }
 
-        [HttpPost("/changeStatus/{id}")]
+        [HttpPost("changeStatus/{id}")]
         public IActionResult ChangeTaskStatus(int id)
         {
             return HandleResponse(_taskService.ChangeTaskStatus(id));

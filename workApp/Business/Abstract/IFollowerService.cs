@@ -5,5 +5,6 @@ namespace Business.Abstract;
 
 public interface IFollowerService : ICrudService<Follower>
 {
+    IDataResult<List<Follower>> GetFollowerRequests();
     IResult RespondRequest(int id, bool response);
 }

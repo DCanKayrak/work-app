@@ -16,6 +16,7 @@ using Business.BusinessAspects;
 
 namespace Business.Concrete
 {
+    [SecuredOperation("USER")]
     public class PomodoroManager : IPomodoroService
     {
         private readonly IUserService _userService;
@@ -31,13 +32,13 @@ namespace Business.Concrete
             _pomodoroRepository = pomodoroRepository;
         }
 
-        [SecuredOperation("USER")]
+
         public IDataResult<Pomodoro> Create(Pomodoro entity)
         {
             entity.UserId = _userService.GetAuthUser().Id;
             return new SuccessDataResult<Pomodoro>(_pomodoroRepository.Create(entity));
         }
-        [SecuredOperation("USER")]
+
         public IResult Delete(int id)
         {
             Pomodoro p = _pomodoroRepository.Get(p => p.Id == id);
@@ -48,7 +49,7 @@ namespace Business.Concrete
             }
             return new ErrorResult();
         }
-        [SecuredOperation("USER")]
+
         public IDataResult<Pomodoro> Get(int id)
         {
             Pomodoro p = _pomodoroRepository.Get(p => p.Id == id);
@@ -60,7 +61,7 @@ namespace Business.Concrete
 
             return new ErrorDataResult<Pomodoro>(null,"Pomodoro bulunamadı");
         }
-        [SecuredOperation("USER")]
+
         public IDataResult<List<Pomodoro>> GetAll(Expression<Func<Pomodoro, bool>> filter)
         {
             List<Pomodoro> pomodoros = _pomodoroRepository.GetAll(filter);
@@ -69,7 +70,7 @@ namespace Business.Concrete
             }
             return new ErrorDataResult<List<Pomodoro>>(null,"Pomodorolar getirilirken bir hatayla karşılaşıldı");
         }
-        [SecuredOperation("USER")]
+
         public IDataResult<List<Pomodoro>> GetAllWithUserAndDate(int userId, DateTime date)
         {
             List<Pomodoro> pomodoros = _pomodoroRepository.GetAll(p => p.Created_At.Date == date.Date && p.UserId == userId);
@@ -79,8 +80,16 @@ namespace Business.Concrete
             }
             return new ErrorDataResult<List<Pomodoro>>("Seçtiğiniz tarih veya kullanıcı id'sine ait pomodoro bulunamadı");
         }
+
+        public IDataResult<Double> GetTotalPomodoroDuration()
+        {
+            int authUser = _userService.GetAuthUser().Id;
+            var pomodoros = _pomodoroRepository.GetAll(p => p.UserId == authUser);
+            int totalDuration = pomodoros.Sum(p => p.Duration);
+
+            return new SuccessDataResult<Double>(totalDuration);
+        }
         
-        [SecuredOperation("USER")]
         public IDataResult<List<Pomodoro>> GetAllBetweenTwoDates(DateTime startDate, DateTime endDate)
         {
             List<Pomodoro> pomodoros = _pomodoroRepository.GetAll(
@@ -95,9 +104,7 @@ namespace Business.Concrete
             }
             return new ErrorDataResult<List<Pomodoro>>("Seçtiğiniz tarih aralığı veya kullanıcı id'sine ait pomodoro bulunamadı");
         }
-
         
-        [SecuredOperation("USER")]
         public IResult Update(Pomodoro entity)
         {
             throw new NotImplementedException();

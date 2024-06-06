@@ -1,11 +1,13 @@
 ﻿using System.Linq.Expressions;
 using Business.Abstract;
 using Business.BusinessAspects;
+using Business.DependencyResolvers.Mapper;
 using Core.Entity.Concrete;
 using Core.Utilities.Results.Abstract;
 using Core.Utilities.Results.Concrete;
 using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.Concrete.Dto.Requests.Notification;
 using Entities.Concrete.Enums;
 
 namespace Business.Concrete;
@@ -13,15 +15,18 @@ namespace Business.Concrete;
 public class FollowerManager : IFollowerService
 {
     private readonly IFollowerRepository _followerRepository;
+    private readonly INotificationService _notificationService;
     private readonly IUserService _userService;
 
     public FollowerManager
     (
         IFollowerRepository followerRepository,
+        INotificationService notificationService,
         IUserService userService
     )
     {
         _userService = userService;
+        _notificationService = notificationService;
         _followerRepository = followerRepository;
     }
     
@@ -57,13 +62,19 @@ public class FollowerManager : IFollowerService
         {
             return new ErrorDataResult<Follower>("Zaten isteğiniz gönderilmiş.");
         }
+
+        if (_userService.Get(entity.To) == null)
+        {
+            return new ErrorDataResult<Follower>("Takip isteğini gönderdiğiniz kişi bulunamadı");
+        }
         
         Follower follower = _followerRepository.Create(entity);
         if ( follower != null )
         {
+            _notificationService.Create(MapperHelper<CreateNotificationRequest,Notification>.Map(new CreateNotificationRequest(entity.To,"Yeni bağlantı isteğiniz bulunmakta", NotificationType.FOLLOWER_NOTIFICATION)));
             return new SuccessDataResult<Follower>(follower);
         }
-        return new ErrorDataResult<Follower>("İstek gönderirken hata");
+        return new ErrorDataResult<Follower>("Takip İsteği gönderilemedi");
     }
     
     [SecuredOperation("USER")]
@@ -83,7 +94,19 @@ public class FollowerManager : IFollowerService
         }
         return new ErrorResult();
     }
-    
+
+    public IDataResult<List<Follower>> GetFollowerRequests()
+    {
+        int authUser = _userService.GetAuthUser().Id;
+        List<Follower> requests = _followerRepository.GetAll(f => f.To == authUser && f.Status == FollowerStatus.Pending);
+        if (requests != null)
+        {
+            return new SuccessDataResult<List<Follower>>(requests);
+        }
+
+        return new ErrorDataResult<List<Follower>>("Bekleyen takip istekleri getirilemedi");
+    }
+
     [SecuredOperation("USER")]
     public IResult RespondRequest(int id, bool response)
     {

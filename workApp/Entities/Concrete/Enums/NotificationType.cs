@@ -2,7 +2,7 @@
 
 public enum NotificationType
 {
-    FOLLOW_REQUEST = 0,
-    FOLLOW_ACCEPTED = 1,
-    
+    FOLLOWER_NOTIFICATION = 0,
+    TASK_NOTIFICATION = 1,
+    POMODORO_NOTIFICATION = 2
 }

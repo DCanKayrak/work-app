@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Entities.Concrete;
 using Entities.Concrete.Dto.Requests.Auth;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,10 +11,15 @@ namespace WebApi.Controllers
     [ApiController]
     public class AuthController : ControllerBase
     {
-        private IAuthService _authService;
-        public AuthController(IAuthService authService)
+        private readonly IAuthService _authService;
+        private readonly IUserRatingService _userRatingService;
+        public AuthController(
+            IAuthService authService,
+            IUserRatingService userRatingService
+            )
         {
             _authService = authService;
+            _userRatingService = userRatingService;
         }
         [HttpPost("Register")]
         public IActionResult Register(RegisterRequestDto req)
@@ -25,6 +31,7 @@ namespace WebApi.Controllers
                 return BadRequest(userExist.Message);
             }
             var registerUser = _authService.Register(req, req.Password);
+            _userRatingService.Create(new UserRating(registerUser.Data.Id));
             var result = _authService.CreateAccessToken(registerUser.Data);
             if (!registerUser.Success)
             {

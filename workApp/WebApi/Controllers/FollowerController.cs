@@ -30,7 +30,13 @@ namespace WebApi.Controllers
             return HandleResponse(_followerService.GetAll(null));
         }
 
-        [HttpPost("/request/{id}/respond/{response}")]
+        [HttpGet("requests")]
+        public IActionResult GetFollowerRequests()
+        {
+            return HandleResponse(_followerService.GetFollowerRequests());
+        }
+
+        [HttpPost("request/{id}/respond/{response}")]
         public IActionResult Respond(int id, bool response)
         {
 

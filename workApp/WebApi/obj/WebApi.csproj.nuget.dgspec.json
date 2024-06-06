@@ -414,6 +414,10 @@
               "target": "Package",
               "version": "[7.0.14, )"
             },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[7.0.20, )"
+            },
             "Microsoft.Extensions.Options": {
               "target": "Package",
               "version": "[7.0.1, )"
