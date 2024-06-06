@@ -3,6 +3,9 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Http;
 using Core.Utilities.Results.Concrete;
 using System.ComponentModel.DataAnnotations;
+using System.Globalization;
+using Business.Constants;
+using Core.Utilities.Localization;
 using ValidationException = FluentValidation.ValidationException;
 
 namespace WebApi.Middleware
@@ -10,10 +13,17 @@ namespace WebApi.Middleware
     public class HttpExceptionHandler
     {
         private HttpResponse response;
+        private IHttpContextAccessor _httpContextAccessor;
+
+        public HttpExceptionHandler(IHttpContextAccessor httpContextAccessor)
+        {
+            _httpContextAccessor = httpContextAccessor;
+        }
 
         public Task HandleExceptionAsync(Exception exception) => exception switch
         {
             ValidationException => HandleValidationException(exception),
+            CustomError => HandleCustomException(exception),
             _ => HandleException(exception)
         };
 
@@ -21,6 +31,16 @@ namespace WebApi.Middleware
         {
             get => response ?? throw new ArgumentNullException(nameof(response));
             set => response = value;
+        }
+
+        protected Task HandleCustomException(Exception exception)
+        {
+            CustomError ex = (CustomError)exception;
+            Response.StatusCode = ex.ErrorEnum.StatusCode;
+            string acceptLang = _httpContextAccessor.HttpContext.Request.Headers["Accept-Language"];
+            string culture = acceptLang != null ? acceptLang : "en";
+            string details = LocalizationManager.GetLocalizedMessages(ex.ErrorEnum.MessageTemplate, culture);
+            return Response.WriteAsJsonAsync(new ErrorResult(details));
         }
         protected Task HandleValidationException(Exception exception)
         {

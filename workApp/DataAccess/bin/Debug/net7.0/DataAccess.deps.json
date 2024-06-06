@@ -635,6 +635,11 @@
         },
         "runtime": {
           "Core.dll": {}
+        },
+        "resources": {
+          "tr/Core.resources.dll": {
+            "locale": "tr"
+          }
         }
       },
       "Entities/1.0.0": {

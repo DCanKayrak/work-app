@@ -24,6 +24,11 @@
         },
         "runtime": {
           "Core.dll": {}
+        },
+        "resources": {
+          "tr/Core.resources.dll": {
+            "locale": "tr"
+          }
         }
       },
       "Castle.Core/5.1.1": {

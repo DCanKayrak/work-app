@@ -33,3 +33,5 @@ C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Business\bin\D
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Business\bin\Debug\net7.0\DataAccess.pdb
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Business\bin\Debug\net7.0\Entities.pdb
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Business\obj\Debug\net7.0\Business.csproj.Up2Date
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Business\bin\Debug\net7.0\tr\Core.resources.dll
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Business\bin\Debug\net7.0\en\Core.resources.dll

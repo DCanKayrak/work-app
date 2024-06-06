@@ -25,3 +25,5 @@ C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Entities\bin\D
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Entities\obj\Debug\net7.0\Entities.csproj.AssemblyReference.cache
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Entities\obj\Debug\net7.0\Entities.sourcelink.json
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Entities\obj\Debug\net7.0\Entities.csproj.Up2Date
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Entities\bin\Debug\net7.0\tr\Core.resources.dll
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Entities\bin\Debug\net7.0\en\Core.resources.dll

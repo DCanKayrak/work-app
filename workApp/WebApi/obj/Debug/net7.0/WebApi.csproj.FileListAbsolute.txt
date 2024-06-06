@@ -356,3 +356,5 @@ C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Deb
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\runtimes\win-arm64\native\e_sqlite3.dll
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\runtimes\win-x64\native\e_sqlite3.dll
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\runtimes\win-x86\native\e_sqlite3.dll
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\tr\Core.resources.dll
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\WebApi\bin\Debug\net7.0\en\Core.resources.dll

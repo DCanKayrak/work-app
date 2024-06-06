@@ -29,3 +29,5 @@ C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\DataAccess\bin
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\DataAccess\obj\Debug\net7.0\DataAccess.csproj.Up2Date
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\DataAccess\bin\Debug\net7.0\DataAccess.runtimeconfig.json
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\DataAccess\obj\Debug\net7.0\DataAccess.genruntimeconfig.cache
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\DataAccess\bin\Debug\net7.0\tr\Core.resources.dll
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\DataAccess\bin\Debug\net7.0\en\Core.resources.dll

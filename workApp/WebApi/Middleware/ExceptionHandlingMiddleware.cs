@@ -13,7 +13,7 @@ namespace WebApi.Middleware
         public ExceptionHandlingMiddleware(RequestDelegate next, IHttpContextAccessor httpContextAccessor)
         {
             _next = next;
-            _exceptionHandler = new HttpExceptionHandler();
+            _exceptionHandler = new HttpExceptionHandler(httpContextAccessor);
             _httpContextAccessor = httpContextAccessor;
         }
 

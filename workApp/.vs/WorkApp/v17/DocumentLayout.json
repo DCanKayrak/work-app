@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3D525254-4C85-444C-A329-DCB23ADB3359}|Core\\Core.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\core\\ioc\\servicetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D525254-4C85-444C-A329-DCB23ADB3359}|Core\\Core.csproj|solutionrelative:core\\ioc\\servicetool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D525254-4C85-444C-A329-DCB23ADB3359}|Core\\Core.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\core\\ioc\\icoremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D525254-4C85-444C-A329-DCB23ADB3359}|Core\\Core.csproj|solutionrelative:core\\ioc\\icoremodule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9878805A-3D86-4188-867F-334F4F78D224}|WebApi\\WebApi.csproj|c:\\users\\danya\\onedrive\\masa\u00FCst\u00FC\\calismalarim\\workappbe\\workapp\\webapi\\controllers\\userratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9878805A-3D86-4188-867F-334F4F78D224}|WebApi\\WebApi.csproj|solutionrelative:webapi\\controllers\\userratingcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -203,19 +211,43 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserRatingController.cs",
-              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\WebApi\\Controllers\\UserRatingController.cs",
-              "RelativeDocumentMoniker": "WebApi\\Controllers\\UserRatingController.cs",
-              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\WebApi\\Controllers\\UserRatingController.cs",
-              "RelativeToolTip": "WebApi\\Controllers\\UserRatingController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "ServiceTool.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Core\\IoC\\ServiceTool.cs",
+              "RelativeDocumentMoniker": "Core\\IoC\\ServiceTool.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Core\\IoC\\ServiceTool.cs",
+              "RelativeToolTip": "Core\\IoC\\ServiceTool.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T21:41:35.206Z",
+              "WhenOpened": "2024-06-06T10:12:41.459Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ICoreModule.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Core\\IoC\\ICoreModule.cs",
+              "RelativeDocumentMoniker": "Core\\IoC\\ICoreModule.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Core\\IoC\\ICoreModule.cs",
+              "RelativeToolTip": "Core\\IoC\\ICoreModule.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-06T10:12:40.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRatingController.cs",
+              "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\WebApi\\Controllers\\UserRatingController.cs",
+              "RelativeDocumentMoniker": "WebApi\\Controllers\\UserRatingController.cs",
+              "ToolTip": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\WebApi\\Controllers\\UserRatingController.cs",
+              "RelativeToolTip": "WebApi\\Controllers\\UserRatingController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-05T21:41:35.206Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "LeagueController.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\WebApi\\Controllers\\LeagueController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\LeagueController.cs",
@@ -223,12 +255,11 @@
               "RelativeToolTip": "WebApi\\Controllers\\LeagueController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T21:41:22.382Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T21:41:22.382Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "NotificationController.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\WebApi\\Controllers\\NotificationController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\NotificationController.cs",
@@ -236,12 +267,11 @@
               "RelativeToolTip": "WebApi\\Controllers\\NotificationController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-05T21:41:03.869Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-05T21:41:03.869Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "WebApi\\Program.cs",
@@ -253,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "CreateFollowerRequest.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Entities\\Concrete\\Dto\\Requests\\Follower\\CreateFollowerRequest.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\Dto\\Requests\\Follower\\CreateFollowerRequest.cs",
@@ -265,7 +295,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "FollowerRequest.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Entities\\Concrete\\Dto\\Requests\\Follower\\FollowerRequest.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\Dto\\Requests\\Follower\\FollowerRequest.cs",
@@ -277,7 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "FollowerController.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\WebApi\\Controllers\\FollowerController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\FollowerController.cs",
@@ -289,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\WebApi\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\AuthController.cs",
@@ -301,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TaskController.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\WebApi\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\TaskController.cs",
@@ -309,12 +339,11 @@
               "RelativeToolTip": "WebApi\\Controllers\\TaskController.cs",
               "ViewState": "AQIAAB4AAAAAAAAAAAAYwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T22:16:27.634Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-29T22:16:27.634Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "CreateTaskCollectionRequest.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Entities\\Concrete\\Dto\\Requests\\Task\\CreateTaskCollectionRequest.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\Dto\\Requests\\Task\\CreateTaskCollectionRequest.cs",
@@ -326,7 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "UpdateTaskCollectionRequest.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Entities\\Concrete\\Dto\\Requests\\Task\\UpdateTaskCollectionRequest.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\Dto\\Requests\\Task\\UpdateTaskCollectionRequest.cs",
@@ -338,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "Follower.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Entities\\Concrete\\Follower.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\Follower.cs",
@@ -350,7 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "TaskCollection.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Entities\\Concrete\\TaskCollection.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\TaskCollection.cs",
@@ -362,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Pomodoro.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Entities\\Concrete\\Pomodoro.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\Pomodoro.cs",
@@ -374,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "CreatePomodoroRequest.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Entities\\Concrete\\Dto\\Requests\\Pomodoro\\CreatePomodoroRequest.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\Dto\\Requests\\Pomodoro\\CreatePomodoroRequest.cs",
@@ -386,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "OperationClaimManager.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Concrete\\OperationClaimManager.cs",
               "RelativeDocumentMoniker": "Business\\Concrete\\OperationClaimManager.cs",
@@ -398,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "TaskItem.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Entities\\Concrete\\TaskItem.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\TaskItem.cs",
@@ -410,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "EfTaskCollectionDal.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\DataAccess\\Concrete\\EntityFramework\\EfTaskCollectionDal.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfTaskCollectionDal.cs",
@@ -422,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "EfDbContext.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\DataAccess\\Concrete\\EntityFramework\\Context\\EfDbContext.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\Context\\EfDbContext.cs",
@@ -434,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "PomodoroController.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\WebApi\\Controllers\\PomodoroController.cs",
               "RelativeDocumentMoniker": "WebApi\\Controllers\\PomodoroController.cs",
@@ -446,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "PomodoroManager.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Concrete\\PomodoroManager.cs",
               "RelativeDocumentMoniker": "Business\\Concrete\\PomodoroManager.cs",
@@ -458,7 +487,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "ITaskCollectionRepository.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\DataAccess\\Abstract\\ITaskCollectionRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\Abstract\\ITaskCollectionRepository.cs",
@@ -470,7 +499,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 29,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Entities\\Concrete\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\BaseEntity.cs",
@@ -482,7 +511,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "IPomodoroService.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Abstract\\IPomodoroService.cs",
               "RelativeDocumentMoniker": "Business\\Abstract\\IPomodoroService.cs",
@@ -494,7 +523,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "TaskManager.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Concrete\\TaskManager.cs",
               "RelativeDocumentMoniker": "Business\\Concrete\\TaskManager.cs",
@@ -506,7 +535,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 48,
               "Title": "20240519212154_Task_TaskCollection.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\DataAccess\\Migrations\\20240519212154_Task_TaskCollection.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\20240519212154_Task_TaskCollection.cs",
@@ -518,7 +547,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\WebApi\\appsettings.json",
               "RelativeDocumentMoniker": "WebApi\\appsettings.json",
@@ -530,7 +559,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Core\\Entity\\Concrete\\User.cs",
               "RelativeDocumentMoniker": "Core\\Entity\\Concrete\\User.cs",
@@ -542,7 +571,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "EfDbContextModelSnapshot.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\DataAccess\\Migrations\\EfDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "DataAccess\\Migrations\\EfDbContextModelSnapshot.cs",
@@ -554,7 +583,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 32,
               "Title": "OperationClaim.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Core\\Entity\\Concrete\\OperationClaim.cs",
               "RelativeDocumentMoniker": "Core\\Entity\\Concrete\\OperationClaim.cs",
@@ -566,7 +595,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 34,
               "Title": "UserManager.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Concrete\\UserManager.cs",
               "RelativeDocumentMoniker": "Business\\Concrete\\UserManager.cs",
@@ -578,7 +607,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 31,
               "Title": "UserOperationClaim.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Core\\Entity\\Concrete\\UserOperationClaim.cs",
               "RelativeDocumentMoniker": "Core\\Entity\\Concrete\\UserOperationClaim.cs",
@@ -590,7 +619,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 30,
               "Title": "UserOperationClaimManager.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Concrete\\UserOperationClaimManager.cs",
               "RelativeDocumentMoniker": "Business\\Concrete\\UserOperationClaimManager.cs",
@@ -602,7 +631,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 35,
               "Title": "ICrudService.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Abstract\\ICrudService.cs",
               "RelativeDocumentMoniker": "Business\\Abstract\\ICrudService.cs",
@@ -614,7 +643,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 33,
               "Title": "EfUserDal.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\DataAccess\\Concrete\\EntityFramework\\EfUserDal.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfUserDal.cs",
@@ -626,7 +655,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 36,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Abstract\\IUserService.cs",
               "RelativeDocumentMoniker": "Business\\Abstract\\IUserService.cs",
@@ -638,7 +667,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 37,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\DataAccess\\Abstract\\IUserRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\Abstract\\IUserRepository.cs",
@@ -650,7 +679,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 38,
               "Title": "EfEntityRepositoryBase.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\DataAccess\\Concrete\\EntityFramework\\EfEntityRepositoryBase.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfEntityRepositoryBase.cs",
@@ -662,7 +691,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 40,
               "Title": "IPomodoroRepository.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\DataAccess\\Abstract\\IPomodoroRepository.cs",
               "RelativeDocumentMoniker": "DataAccess\\Abstract\\IPomodoroRepository.cs",
@@ -674,7 +703,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 39,
               "Title": "EfPomodoroDal.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\DataAccess\\Concrete\\EntityFramework\\EfPomodoroDal.cs",
               "RelativeDocumentMoniker": "DataAccess\\Concrete\\EntityFramework\\EfPomodoroDal.cs",
@@ -686,7 +715,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 41,
               "Title": "MapperHelper.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\DependencyResolvers\\Mapper\\MapperHelper.cs",
               "RelativeDocumentMoniker": "Business\\DependencyResolvers\\Mapper\\MapperHelper.cs",
@@ -698,7 +727,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 42,
               "Title": "PomodoroResponse.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Entities\\Concrete\\Dto\\Responses\\PomodoroResponse.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\Dto\\Responses\\PomodoroResponse.cs",
@@ -710,7 +739,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 43,
               "Title": "AuthManager.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Concrete\\AuthManager.cs",
               "RelativeDocumentMoniker": "Business\\Concrete\\AuthManager.cs",
@@ -722,7 +751,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 45,
               "Title": "IService.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Abstract\\IService.cs",
               "RelativeDocumentMoniker": "Business\\Abstract\\IService.cs",
@@ -734,7 +763,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 44,
               "Title": "ITaskService.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Business\\Abstract\\ITaskService.cs",
               "RelativeDocumentMoniker": "Business\\Abstract\\ITaskService.cs",
@@ -746,7 +775,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 46,
               "Title": "TaskCollectionResponse.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Entities\\Concrete\\Dto\\Responses\\Task\\TaskCollectionResponse.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\Dto\\Responses\\Task\\TaskCollectionResponse.cs",
@@ -758,7 +787,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 47,
               "Title": "TaskResponse.cs",
               "DocumentMoniker": "C:\\Users\\danya\\OneDrive\\Masa\u00FCst\u00FC\\Calismalarim\\workAppBe\\workApp\\Entities\\Concrete\\Dto\\Responses\\Task\\TaskResponse.cs",
               "RelativeDocumentMoniker": "Entities\\Concrete\\Dto\\Responses\\Task\\TaskResponse.cs",

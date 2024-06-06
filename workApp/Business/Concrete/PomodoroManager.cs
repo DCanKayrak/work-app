@@ -13,6 +13,7 @@ using System.Linq.Expressions;
 using System.Text;
 using System.Threading.Tasks;
 using Business.BusinessAspects;
+using Business.Constants;
 
 namespace Business.Concrete
 {
@@ -78,7 +79,8 @@ namespace Business.Concrete
             {
                 return new SuccessDataResult<List<Pomodoro>>(pomodoros);
             }
-            return new ErrorDataResult<List<Pomodoro>>("Seçtiğiniz tarih veya kullanıcı id'sine ait pomodoro bulunamadı");
+
+            throw new CustomError(ErrorEnum.GET_ALL_POMODOROS_WITH_USER_AND_DATE);
         }
 
         public IDataResult<Double> GetTotalPomodoroDuration()

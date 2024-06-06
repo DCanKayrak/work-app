@@ -1,4 +1,5 @@
 ﻿using Business.Abstract;
+using Business.Constants;
 using Business.DependencyResolvers.Mapper;
 using Core.Utilities.Results.Abstract;
 using Entities.Concrete;
@@ -31,6 +32,12 @@ namespace WebApi.Controllers
         public IActionResult GetAllWithUserAndDate(int userId, DateTime date)
         {
             return HandleResponse(_pomodoroService.GetAllWithUserAndDate(userId,date));
+        }
+
+        [HttpGet("totalTime")]
+        public IActionResult GetTotalTime()
+        {
+            return HandleResponse(_pomodoroService.GetTotalPomodoroDuration());
         }
         
         [HttpGet("pomodoros/from/{startDate}/to/{endDate}")]

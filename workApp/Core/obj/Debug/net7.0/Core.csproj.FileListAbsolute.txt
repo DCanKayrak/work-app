@@ -23,3 +23,13 @@ C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Core\obj\Debug
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Core\obj\Debug\net7.0\Core.pdb
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Core\obj\Debug\net7.0\ref\Core.dll
 C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Core\obj\Debug\net7.0\Core.sourcelink.json
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Core\bin\Debug\net7.0\tr\Core.resources.dll
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Core\obj\Debug\net7.0\Core.Resources.Resources.resources
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Core\obj\Debug\net7.0\Core.Resources.Resources.tr.resources
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Core\obj\Debug\net7.0\Core.csproj.GenerateResource.cache
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Core\obj\Debug\net7.0\tr\Core.resources.cs
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Core\obj\Debug\net7.0\tr\Core.resources.dll
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Core\bin\Debug\net7.0\en\Core.resources.dll
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Core\obj\Debug\net7.0\Core.Resources.Resources.en.resources
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Core\obj\Debug\net7.0\en\Core.resources.cs
+C:\Users\danya\OneDrive\Masaüstü\Calismalarim\workAppBe\workApp\Core\obj\Debug\net7.0\en\Core.resources.dll

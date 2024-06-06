@@ -1006,6 +1006,11 @@
         },
         "runtime": {
           "Core.dll": {}
+        },
+        "resources": {
+          "tr/Core.resources.dll": {
+            "locale": "tr"
+          }
         }
       },
       "DataAccess/1.0.0": {
